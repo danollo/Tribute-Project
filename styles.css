@@ -7,6 +7,7 @@ img{
   height: auto;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: auto;
 }
 
 #title{
@@ -22,8 +23,9 @@ img{
 
 #img-caption{
   text-align: center;
-  border-top: 2px dashed #49878e ;
-  border-bottom: 2px dashed #49878e ;
+  margin-top: auto;
+  
+  border-top: 4px dashed #49878e ;
   font-family: verdana;
 }
 
@@ -37,4 +39,23 @@ a{
   font-weight: 400;
   line-height: 40px;
   text-shadow: 0 0 20px #49878e;
+}
+
+.divider{
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 4px dashed #49878e;
+}
+
+.space{
+  padding: 25px;
+}
+
+.list{
+  font-size: auto;
+}
+
+ul{
+  list-style-type: none;
 }
